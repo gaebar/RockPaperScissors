@@ -1,3 +1,29 @@
+
+/*
+FIRST RockPaperScissors REFACTOR ATTEMPT - Personal notes:
+
+This version of the code extracts the complexity into separate methods and uses
+more descriptive method names, making the code easier to read and understand.
+
+The getPlayerMove method handles getting a valid move from the player, while the
+isValidMove method checks whether a given move is valid. The getResult method calculates
+the game's outcome based on the player and computer moves.
+
+With these changes, the cognitive complexity of the main method is reduced to 12,
+well below the allowed limit of 15.
+
+MORE:
+- Made the print statement for the System.out.println(playerMove + " is not a valid move."); more readable.
+I played a bit with the printf statement:
+- added quotation marks around the %s format specifier ("\"%S\" is not ..."),
+- returned the user input in capital letters (%S instead of %s).
+
+NEXT STEPS:
+On a new file, I want to:
+-  add variables for the values "Rock", "Paper", and "Scissors" to make the code more readable;
+- add comments describing the purpose and functionality of each code section.
+*/
+
 import java.util.Random;
 import java.util.Scanner;
 
